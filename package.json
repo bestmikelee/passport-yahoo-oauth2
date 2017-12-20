@@ -1,6 +1,6 @@
 {
   "name": "@tells/passport-yahoo-oauth2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OAuth 2.0 Strategy for Yahoo!",
   "main": "./lib",
   "engines": {
@@ -9,7 +9,12 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["passport", "yahoo", "oauth2", "auth"],
+  "keywords": [
+    "passport",
+    "yahoo",
+    "oauth2",
+    "auth"
+  ],
   "author": "Mike Lee",
   "license": "MIT",
   "licenses": [
