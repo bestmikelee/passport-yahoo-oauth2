@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "OAuth 2.0 Strategy for Yahoo!",
   "main": "./lib",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -22,5 +25,8 @@
   ],
   "dependencies": {
     "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "jest": "^22.0.3"
   }
 }
